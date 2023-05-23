@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".DocUpdate">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Name:"
+        android:textSize="20sp"
+        android:drawableRight="@drawable/person"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:id="@+id/ed"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Name:"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:id="@+id/ed1"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor type:"
+        android:textSize="20sp"
+        android:id="@+id/ed2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor's Speciality:"
+        android:textSize="20sp"
+        android:id="@+id/ed7"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Contact Number:"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/phone"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:id="@+id/ed3"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Fee:"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:id="@+id/ed4"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Available Time:"
+        android:drawableRight="@drawable/time"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:id="@+id/ed5"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Address:"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:id="@+id/ed6"
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="docsave"/>
+
+
+</LinearLayout>
+</ScrollView>

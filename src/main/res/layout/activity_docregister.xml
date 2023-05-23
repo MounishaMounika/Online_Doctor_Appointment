@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".docregister">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:textSize="30dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Doctor name"
+        android:id="@+id/doc"
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/person"
+        android:background="@drawable/shape"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/doc1"
+        android:hint="Email"
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp"
+       android:padding="10dp"
+        android:drawableRight="@drawable/email"
+        android:background="@drawable/shape"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleTint="#000"
+        app:passwordToggleEnabled="true" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/docpwd"
+            android:textColorHint="#000"
+            android:background="@drawable/shape"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:hint="password"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital name"
+        android:id="@+id/doc2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor type"
+        android:id="@+id/doc3"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/shape"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor's Speciality"
+        android:id="@+id/doc8"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/shape"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Contact number"
+        android:id="@+id/doc4"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/phone"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor fee"
+        android:id="@+id/doc5"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/shape"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Available timings"
+        android:id="@+id/doc6"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/time"
+        android:textColorHint="#000"
+        android:background="@drawable/shape"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital address"
+        android:id="@+id/doc7"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/shape"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/docb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:onClick="docregister"/>
+
+
+</LinearLayout>
+</ScrollView>

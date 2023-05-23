@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".Update">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e"
+        android:hint="Name:"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/person"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColorHint="#000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/e1"
+        android:hint="Phone Number:"
+        android:inputType="number"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/phone"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"
+        android:hint="State:"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e3"
+        android:hint="District:"
+        android:textSize="20sp"
+        android:textColorHint="#000"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City:"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e5"
+        android:hint="Pincode:"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textColorHint="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e6"
+        android:hint="Street:"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="save"
+        android:onClick="save"/>
+
+
+</LinearLayout>
+</ScrollView>

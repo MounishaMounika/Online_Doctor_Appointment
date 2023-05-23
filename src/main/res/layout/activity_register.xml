@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:context=".RegisterActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an Account"
+            android:textSize="30dp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Name"
+            android:padding="10dp"
+            android:textColorHint="#000"
+            android:id="@+id/name"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/person"
+            android:background="@drawable/shape"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Email"
+            android:textColorHint="#000"
+            android:background="@drawable/shape"
+            android:inputType="textEmailAddress"
+            android:drawableRight="@drawable/email"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/em"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleTint="#000"
+            app:passwordToggleEnabled="true" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/pwd"
+                android:textColorHint="#000"
+                android:inputType="textPassword"
+                android:background="@drawable/shape"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="password"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="phone number"
+            android:inputType="phone"
+            android:textColorHint="#000"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/phone"
+            android:padding="10dp"
+            android:id="@+id/phone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="30dp"
+            android:textColor="#000" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="state"
+            android:padding="10dp"
+            android:background="@drawable/shape"
+            android:textColorHint="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/st"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="District"
+            android:textColorHint="#000"
+            android:padding="10dp"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dis"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="city"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000"
+            android:id="@+id/ci"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="pincode"
+            android:inputType="number"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColorHint="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pin"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="street address"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000"
+            android:id="@+id/str"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Register"
+            android:onClick="register"/>
+
+    </LinearLayout>
+</ScrollView>

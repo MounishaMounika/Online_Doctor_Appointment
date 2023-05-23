@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:text="Doctor Name:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Name:"
+        android:textSize="20sp"
+        android:id="@+id/doctv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name:"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:textSize="20sp"
+        android:id="@+id/t2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name:"
+        android:textSize="20sp"
+        android:id="@+id/doctv1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor type:"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:textSize="20sp"
+        android:id="@+id/t3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor type:"
+        android:textSize="20sp"
+        android:id="@+id/doctv2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:text="Doctor's Speciality:"
+        android:id="@+id/t8"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctv7"
+        android:text="doctors speciality"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Contact Number:"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:textSize="20sp"
+        android:id="@+id/t4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HCN:"
+        android:textSize="20sp"
+        android:id="@+id/doctv3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Fee:"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:textSize="20sp"
+        android:id="@+id/t5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Fee:"
+        android:textSize="20sp"
+        android:id="@+id/doctv4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Time:"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:textSize="20sp"
+        android:id="@+id/t6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Time:"
+        android:textSize="20sp"
+        android:id="@+id/doctv5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Address:"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:textSize="20sp"
+        android:id="@+id/t7"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Address:"
+        android:textSize="20sp"
+        android:id="@+id/doctv6"/>
+
+</LinearLayout>
